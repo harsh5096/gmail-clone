@@ -1,0 +1,8 @@
+.home{
+    display: grid;
+    width: 100%;
+    margin-top: 12px;
+    height: 100%;
+    grid-template-columns: 253px 1202px 40px;
+    background-color: whitesmoke;
+}

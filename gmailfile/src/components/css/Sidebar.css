@@ -1,0 +1,106 @@
+#root{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.sidebar Button{
+    margin-top: 10px;
+    padding: 10px 20px !important;
+    max-width: 150px;
+    box-shadow: 2px 2px 3px #ccc;
+    color: black;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-left: 12px;
+    height: 57px;
+    background-color:#b1d2eb87;
+    margin-bottom: 21px;
+}
+
+.sidebar Button:hover{
+    background-color: #b1d2eb87;
+    box-shadow: 2px 2px 3px #b1d2eb87;
+}
+ .sidebar {
+       display: flex;
+       flex-direction: column;
+       margin-left: 0px;
+       margin-top: 34px;
+       background-color: whitesmoke;
+       max-width: 258px;
+       height: 650px;
+    }
+.sidebaroption{
+    display: grid;
+    grid-template-columns: 50px auto 53px;
+    max-width: 252px;
+    margin-left: -9px;
+    margin-top: 4px;
+    height: 33px;
+    align-items: center;
+    border-top-right-radius: 20px;
+
+}
+.sidebbaroption--active{
+    height: 33px;
+      border-bottom-right-radius: 20px;
+    background-color: rgb(159 200 247 / 57%);
+    border-top-right-radius: 20px;
+}
+ .sidebaroption:hover{
+    height: 33px;
+      border-bottom-right-radius: 20px;
+    background-color:#bdbdbd2b;;
+    border-top-right-radius: 20px;
+} 
+
+
+.sidebaroption h2{
+    margin-top: 6px;
+    font-size: 17px;
+    color: #000000a6;
+    padding-left: 22px;
+
+}
+
+.sidebaroption p{
+    margin-top: 8px;
+    /* margin-left: 93px; */
+
+}
+
+/* .sidebaroption .icon{
+    margin-left: 27px;    
+    background-color: #082fca00;
+    max-width: 250px;
+    margin-top: -6px;
+} */
+.sidebaroption .icon{
+    color: grey;
+    font-size: 19px;
+    margin-left: 27px;    
+    background-color: #082fca00;
+    max-width: 250px;
+    margin-top: -6px;
+}
+
+.sidebar-label{
+    display: flex;
+    color: #000000ad;
+    font-size: 21px;
+    margin-top: 50px;
+    margin-left: 26px;
+}
+.sidebar-label .add-icon{
+        color: #00000099;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-left: 138px;
+}
+.sidebar-label .add-icon:hover{
+    background-color: #cec6c64a;
+    border-radius: 50%;
+}

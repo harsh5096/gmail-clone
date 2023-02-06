@@ -1,0 +1,46 @@
+.home-right {
+    display: flex;
+    background-color: whitesmoke;    
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.home-right .img-1{
+    margin-left: 12px;
+    margin-top: 15px;
+    width: 45px;
+    height: 45px;
+}
+.home-right .img-2 {
+    margin-left: 19px;
+    margin-top: 26px;
+    width: 31px;
+    height: 32px;
+}
+.home-right .img-3 {
+    margin-left: 17px;
+    margin-top: 28px;
+    width: 37px;
+    height: 32px;
+}
+.home-right .img-4 {
+    margin-left: 23px;
+    margin-top: 30px;
+    width: 21px;
+    height: 25px;
+}
+.home-right hr {
+        width: 24px;
+        margin-top: 32px;
+        background-color: #807979;
+        margin-left: 23px;
+    }
+.home-right .addicon {
+        width: 24px;
+        margin-top: 32px;
+        margin-left: 23px;
+    }
+.home-right .righticon {
+    margin-left: 23px;
+    margin-top: 273px;
+    }
